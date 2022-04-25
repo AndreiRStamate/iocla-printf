@@ -1,0 +1,20 @@
+Idee de baza:
+	_________________________________________________________________________________
+	
+		Se creeaza o variabila auxiliara "result" in care se construieste sirul rezultat
+		in urma interpretarii formatului:
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Se parcurge sirul "format" cu ajutorul unei bucle for si se urmaresc aparitiile
+			caracterului '%'. Pentru fiecare caracter '%' se compara si caracterul imediat
+			urmator cu specificatorii din cerinta ('%', 'c', 's', 'd', 'u', 'x'). 
+		
+			Caracterele care nu fac parte dintr-o structura "%T" se introduc ca atare in
+			sirul "result".
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		
+	Interpretarea formatului:
+	_________________________________________________________________________________
+		In functie de specificatorul gasit dupa '%' se creeaza o variabila auxiliara in care
+		se stocheaza valoarea data ca parametru si folosind algoritmul potrivit cazului
+		se adauga caractere in sirul "result".
+	
